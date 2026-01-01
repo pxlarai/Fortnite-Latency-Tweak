@@ -7,35 +7,22 @@ Honesty Check: This script focuses on latency and stability. It is not a "fake" 
 While results vary based on your hardware and ISP, this script targets common Windows bottlenecks:
 
 Ping Improvement: Potential reduction from 25ms to 10ms by optimizing the network stack.
-
 Zero Input Delay: Disables Windows features that cause "floaty" mouse and keyboard feel.
-
 Improved 1% Lows: Removes background system interruptions for smoother frame-timing.
-
 ✨ Key Features
 System Restore Point: Automatically creates a backup for your safety before any changes are made.
-
 Nagle's Algorithm Fix: Forces Windows to send game packets immediately without waiting.
-
 Network Throttling Disabled: Stops Windows from prioritizing background traffic over your game.
-
 TSC Clock Sync: Configures the system to use the most precise hardware clock.
-
 Adapter Offloading: Disables power-saving features on your WiFi/Ethernet card that cause lag spikes.
-
 🚀 How to Use
 Download: Get the latency_reduction.bat file from this repository.
-
 Run: Right-click the file and select "Run as Administrator" (Required).
-
 Restart: You must restart your PC for the registry changes to take effect.
-
 🛡️ Transparency & Safety
 This project is 100% Open Source. You can right-click the .bat file and select Edit at any time to see every single line of code. We use standard Windows commands (reg add, bcdedit, powershell) to ensure your system remains stable.
 
 🔍 View the Code
-Code snippet
-
 @echo off
 title Ultimate Latency and FPS Tweaks (Fortnite)
 color 0B
@@ -43,7 +30,7 @@ color 0B
 echo.
 echo ====================================================================
 echo == WARNING: This script makes permanent changes to system settings. ==
-echo ==          Run only if you understand and accept the risk.        ==
+echo ==          Run only if you understand and accept the risk.       ==
 echo ====================================================================
 echo.
 
@@ -133,3 +120,9 @@ echo.
 echo Press any key to exit.
 pause >nul
 exit
+
+ 🔙 How to Undo
+If you want to go back to original Windows settings:
+1. Download `revert_latency.bat`.
+2. Run as Administrator and restart your PC.
+3. Your system will be back to its default state.

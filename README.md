@@ -133,3 +133,9 @@ echo.
 echo Press any key to exit.
 pause >nul
 exit
+
+ 🔙 How to Undo
+If you want to go back to original Windows settings:
+1. Download `revert_latency.bat`.
+2. Run as Administrator and restart your PC.
+3. Your system will be back to its default state.

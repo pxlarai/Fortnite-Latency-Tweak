@@ -1,5 +1,3 @@
-Here is the full, formatted README.md for your Latency Reduction project. You can copy and paste this directly into the file on GitHub to make it look clean and professional.
-
 ⚡ latency_reduction
 A hand-coded Windows batch script designed to minimize input delay, reduce network jitter, and provide a stable gaming experience.
 
@@ -135,4 +133,3 @@ echo.
 echo Press any key to exit.
 pause >nul
 exit
-3. Your system will be back to its default state.
